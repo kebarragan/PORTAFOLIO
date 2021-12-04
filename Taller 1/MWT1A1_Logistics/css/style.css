@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zen+Antique&display=swap');
+ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(26, 140, 247);
+    padding: 20px;
+    align-items: baseline;
+}
+
+.menu{
+    width: 70%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(26, 140, 247); */
+    color: white;     
+}
+
+.menu ul li{
+  width: 100px;
+  list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(102, 168, 230);
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 15px 20px;
+}
+
+.menu ul li .linkuno{
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    background-color: #fff;
+    color: rgb(102, 168, 230);
+}
+
+.login > button{
+
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(26, 140, 247);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*MAIN*/
+/*Imagen Principal*/
+main section img{
+    width: 50%;
+}
+
+main .imagenprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main section article .imagen{
+    width: 48%;
+}
+
+main section article .imagen img{
+    width: 100%;
+}
+
+main section article .detalle{
+    width: 48%;
+    border: 1px solid rgb(30, 119, 236);
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+main section article .detalle h2{
+    text-align: center;
+    border-bottom: 1px solid rgb(30, 119, 236);
+    color: grey;
+    padding: 20px;
+}
+main section article .detalle h3{
+    margin-top: 220px;
+    margin-bottom: 20px;
+}
+
+main section article .detalle ul{
+    list-style: square;
+    padding-left: 20px;
+}
+
+
+main section article .detalle div{
+    padding: 0px 0px 0px 40px;
+}
+
+main section article .dos{
+    order: 2; 
+}
+
+main section article .uno{
+    order: 1;
+}
+
+main section article .detalle div p{
+    margin-bottom: 20px; 
+}
+
+main section .linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section .linea hr{
+    margin: 20px 0px;
+    height: 5px;
+    background-color: rgb(26, 140, 247);
+    width: 95%;
+}
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    background-color: rgb(26, 140, 247);
+    padding: 20px;
+    color:white; 
+}
+
+
+
+footer .contacto{
+    border: 1px dashed white; 
+    text-align: center;
+    margin-right: 50px;
+    width: 50%;
+}
+
+footer .contacto p{
+    font-family: 'Zen Antique', serif;
+    text-align: left;
+    margin:10px;  
+}
+
+footer .contacto p img{
+    width: 25px;
+    height: 25px; 
+    margin-right: 10px;
+}
+
+
+footer .redes{
+    border: 1px dashed white;   
+    padding: 0px 20px 10px 20px; 
+    width: 50%;
+}
+
+footer .redes h2{
+    padding-bottom: 20px;
+}
+
+footer .redes div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .redes button{
+    border: none; 
+    border-radius: 250px;
+    cursor:pointer;
+}
+
+ 
+
+ 
+
+
